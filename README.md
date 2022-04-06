@@ -10,7 +10,9 @@ linux下C++开发的多并发web服务器，支持多个浏览器同时向服务
 在命令行输入g++ *.cpp -pthread
 ## 运行
 ./a.out port_number
-port_number为输入的端口号，如10000
+
+其中，port_number为输入的端口号，如10000
 ## 访问
 打开浏览器，输入html地址http://192.168.16.132:10000/index.html
-192.168.16.132为linux服务器的ip地址
+
+其中，192.168.16.132为linux服务器的ip地址
